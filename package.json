@@ -10,7 +10,8 @@
     "build": "tsc",
     "prepare": "npm run build",
     "start": "node dist/index.js",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "test": "npm run build && tsx test/test-server.ts"
   },
   "keywords": [
     "mcp",
